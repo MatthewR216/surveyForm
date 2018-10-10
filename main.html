@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Press+Start+2P" rel="stylesheet">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">The Gamer Survey</h1>
+      <p id="description"> The survey made with gamers in mind </p>
+    </header>
+    <main id="main">
+      
+      <form id="survey-form" action="#">
+        
+        <div class="container">
+          <label id="name-label" for="name" class="left">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Input name here." required>
+        </div>
+        
+        <div class="container">
+          <label id="email-label" for="email" class="left">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Input e-mail here." required>
+        </div>
+        
+        <div class="container">
+          <label id="age-label" for="age" class="left">Age:</label>
+          <input type="number" id="age" name="age" min="1" max="99" placeholder="Input age here." required>
+        </div>  
+        
+        <div class="container">
+          <label id="drop-down-label" for="gender" class="left">Gender:</label>
+          <select id="dropdown">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Prefer not to say</option>
+          </select>
+        </div>
+        
+        
+        <div class="container">
+          <label for="blank" class="left">Do you play games?:</label>
+            <label for="yes" class="radio-label">
+              <input id="yes" type="radio" name="yes-no">Yes
+            </label>
+          
+            <label for="no" class="radio-label">
+              <input id="no" type="radio" name="yes-no">No
+            </label>
+        </div>
+        
+        <div class="container">
+          <label for="blank" class="left">What games do you play?:</label>
+            <ul class="checkbox-list">
+              
+              <li><label for="fortnite">
+              Fortnite: <input id="fortnite" type ="checkbox" value="fortnite" name="game">
+              </label></li>
+              
+              <li><label for="rocket-league">
+              Rocket League: <input id="rocket-league" type ="checkbox" value="rocket-league" name="game">
+              </label></li>
+              
+              <li><label for="minecraft">
+              Minecraft: <input id="minecraft" type ="checkbox" value="minecraft" name="game">
+              </label></li>
+              
+              <li><label for="csgo">
+              CSGO: <input id="csgo" type ="checkbox" value="csgo" name="game">
+              </label></li>
+              
+              <li><label for="overwatch">
+              Overwatch: <input id="overwatch" type ="checkbox" value="overwatch" name="game">
+              </label></li>
+              
+              <li><label for="other">
+              Other: <input id="other" type ="checkbox" value="other" name="game">
+              </label></li>
+              
+          </ul>
+        </div>
+        
+        <div class="container">
+          <label id="additional-comments-label" for="additional-comments" class="left">Additional Comments:</label>
+          <textarea id="additional-comments"></textarea>
+        </div>
+       
+        <button type="submit" id="submit-button">Submit</button>
+        
+      </form>
+    </main>
+  </body>
+</html>

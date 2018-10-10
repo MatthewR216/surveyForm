@@ -1,0 +1,88 @@
+body{
+    background-color: #303030;
+  }
+  
+  header{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  #title{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #00b300;
+  }
+  
+  #description{
+    color: white;
+    font-family: 'Fugaz One', cursive;
+  }
+  
+  #main{
+    display: block;
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    background-color: #303030;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 20px;
+  }
+  
+  .container{
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .left{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    color: #00b300;
+    font-family: 'Fugaz One', cursive;
+  }
+  
+  #age{
+    width: 40px;
+  }
+  
+  .center{
+    display: inline-block;
+  }
+  
+  .radio-label{
+    color: #00b300;
+    font-family: 'Fugaz One', cursive;
+  }
+  
+  .checkbox-list{
+    list-style-type: none;
+    display: block;
+    width: 50%;
+    text-align: right;
+    color: #00b300;
+    font-family: 'Fugaz One', cursive;
+  }
+  
+  [type="checkbox"]{
+    margin-bottom: 20px;
+  }
+  
+  #additional-comments{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    vertical-align: top;
+  }
+  
+  #submit-button{
+    background-color: #00b300;
+    border-color: black;
+    color: #303030;
+    font-family: 'Press Start 2P';
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 245px
+  }
